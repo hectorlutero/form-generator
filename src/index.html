@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>Form Generator</title>
+    <link href="./output.css"
+          rel="stylesheet">
+</head>
+
+<body>
+    <div id="root"
+         class="w-full h-[100vh] flex flex-col items-center justify-center">
+        <div id="form-container"
+             class="rounded-sm p-6 shadow-xl w-1/4">
+            <form id="initialForm"
+                  action="">
+                <h1 class="text-center text-3xl font-bold">Create your Form</h1>
+
+                <label for="formName">
+                    <h2 class="text-lg">Give it a name:</h2>
+                    <input name="formName"
+                           id="formName"
+                           type="text">
+                </label>
+
+                <label for="formTemplate">
+                    <h2 class="text-lg">Choose a form template:</h2>
+                    <select name="formTemplate"
+                            id="formTemplate"
+                            class="form-control">
+                        <option value="contact">Contact Form</option>
+                        <option value="newsletter">Newsletter Form</option>
+                        <option value="login">Login Form</option>
+                        <option value="signup">Signup Form</option>
+                        <option value="reset-password">Reset Password Form</option>
+                    </select>
+                </label>
+                <input type="submit"
+                       value="submit">
+            </form>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>

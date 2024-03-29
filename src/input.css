@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #000;
+}
+
+select.form-control {
+    padding: 0.4em 0.2em;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0.4em 0.2em;
+}
+
+.form-control {
+    padding: 0.4em 0.2em;
+}
+
+input[type="submit"] {
+    background-color: black;
+    color: #fff;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.radio-check-container {
+    display: flex;
+    gap: 5px;
+}

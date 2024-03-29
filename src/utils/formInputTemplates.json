@@ -1,0 +1,148 @@
+{
+    "name": {
+        "name": "name",
+        "type": "text",
+        "placeholder": "Name",
+        "required": true
+    },
+    "firstName": {
+        "name": "firstName",
+        "type": "text",
+        "placeholder": "First Name",
+        "required": true
+    },
+    "lastName": {
+        "name": "lastName",
+        "type": "text",
+        "placeholder": "Last Name",
+        "required": true
+    },
+    "email": {
+        "name": "email",
+        "type": "email",
+        "placeholder": "Email",
+        "required": true
+    },
+    "password": {
+        "name": "password",
+        "type": "password",
+        "placeholder": "Password",
+        "required": true
+    },
+    "confirmPassword": {
+        "name": "confirmPassword",
+        "type": "password",
+        "placeholder": "Confirm Password",
+        "required": true
+    },
+    "phone": {
+        "name": "phone",
+        "type": "tel",
+        "placeholder": "Phone",
+        "required": true
+    },
+    "zipCode": {
+        "name": "zipcode",
+        "type": "text",
+        "placeholder": "Zip Code",
+        "required": true
+    },
+    "address": {
+        "name": "address",
+        "type": "text",
+        "placeholder": "Address",
+        "required": true
+    },
+    "city": {
+        "name": "city",
+        "type": "text",
+        "placeholder": "City",
+        "required": true
+    },
+    "state": {
+        "name": "state",
+        "type": "text",
+        "placeholder": "State",
+        "required": true
+    },
+    "country": {
+        "name": "country",
+        "type": "select",
+        "placeholder": "Country",
+        "required": true
+    },
+    "gender": {
+        "name": "gender",
+        "type": "radio",
+        "placeholder": "Gender",
+        "options": [
+            {
+                "value": "male",
+                "text": "Male"
+            },
+            {
+                "value": "female",
+                "text": "Female"
+            }
+        ]
+    },
+    "birthdate": {
+        "name": "birthdate",
+        "type": "date",
+        "placeholder": "Birthdate",
+        "required": true
+    },
+    "newEmail": {
+        "name": "newEmail",
+        "type": "email",
+        "placeholder": "New Email",
+        "required": true
+    },
+    "file": {
+        "name": "file",
+        "type": "file",
+        "placeholder": "File"
+    },
+    "profilePic": {
+        "name": "profilePic",
+        "type": "file",
+        "placeholder": "Profile Pic"
+    },
+    "oldPassword": {
+        "name": "oldPassword",
+        "type": "password",
+        "placeholder": "Old Password",
+        "required": true
+    },
+    "newPassword": {
+        "name": "newPassword",
+        "type": "password",
+        "placeholder": "New Password",
+        "required": true
+    },
+    "submit": {
+        "name": "submit",
+        "type": "submit",
+        "value": "Submit"
+    },
+    "login": {
+        "name": "submit",
+        "type": "submit",
+        "value": "Login"
+    },
+    "signup": {
+        "name": "submit",
+        "type": "submit",
+        "value": "Sign up"
+    },
+    "resetPasswordBtn": {
+        "name": "submit",
+        "type": "submit",
+        "value": "Reset Password"
+    },
+    "updateProfileBtn": {
+        "name": "submit",
+        "type": "submit",
+        "value": "Update Profile"
+    }
+}
