@@ -1,0 +1,26 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "npm install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "parcel-build": {
+      "name": "parcel",
+      "command": "npm run parcel-build",
+      "runAtStart": true
+    },
+    "tailwind-build": {
+      "name": "tailwind",
+      "command": "npm run build"
+    },
+    "start": {
+      "name": "start",
+      "command": "npm run start"
+    }
+  }
+}
